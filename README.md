@@ -1,6 +1,8 @@
-Uses openGL and GLSL shader language to ray trace a world in parallel using the GPU. 
+Uses openGL and GLSL shader language to ray trace a world in real time by casting rays in parallel using the GPU. 
 
 Compile using: g++ main.cpp gl.cpp -framework GLUT -framework OpenGL -Wno-deprecated-declarations
+
+Run using ./a.out
 
 Press the 'c' to enable clouds. 
 Press 'h' to enable ripples on the water. 
